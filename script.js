@@ -313,22 +313,6 @@
     "h": 1803,
     "orient": "portrait",
     "caption": "Alayna Ann Sony \u2014 Holy Communion (12)"
-  },
-  {
-    "id": 13,
-    "src": "photos/_zac7480.jpg",
-    "w": 1200,
-    "h": 1803,
-    "orient": "portrait",
-    "caption": "Alayna Ann Sony \u2014 Holy Communion (13)"
-  },
-  {
-    "id": 14,
-    "src": "photos/_zac7481.jpg",
-    "w": 1200,
-    "h": 1805,
-    "orient": "portrait",
-    "caption": "Alayna Ann Sony \u2014 Holy Communion (14)"
   }
 ];
 
