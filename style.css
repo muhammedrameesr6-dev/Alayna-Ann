@@ -679,6 +679,17 @@ img {
   line-height: 1.25;
 }
 
+.name-block .baptismal-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.15rem, 3.8vw, 1.45rem);
+  color: var(--gold-light);
+  letter-spacing: .06em;
+  margin-top: 4px;
+  line-height: 1.2;
+}
+
 .names-row .amp-mini {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
