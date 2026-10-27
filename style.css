@@ -183,7 +183,8 @@ img {
 #gate .gate-bg {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at center, #1b321c 0%, #0d170e 100%);
+  background: radial-gradient(circle at center, rgba(27, 50, 28, 0.78) 0%, rgba(13, 23, 14, 0.94) 100%),
+              url('photos/hero_candle.jpg') center 25%/cover no-repeat;
 }
 
 #gate .gate-content {
@@ -947,18 +948,24 @@ img {
 .event-meta {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  align-items: center;
+  gap: 18px;
   margin-bottom: 28px;
+  text-align: center;
+  width: 100%;
 }
 
-.event-meta .row {
-  display: flex;
+.event-meta .row.event-datetime {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  font-size: 1.05rem;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  font-size: clamp(0.92rem, 2.8vw, 1.05rem);
   font-weight: 500;
   color: #f0f5ee;
+  text-align: center;
+  line-height: 1.4;
 }
 
 .event-meta .row .ic {
@@ -968,12 +975,32 @@ img {
   color: var(--gold);
 }
 
-.event-meta .venue {
+.event-venue-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  text-align: center;
+}
+
+.event-venue-block .venue-name {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: 1.55rem;
-  letter-spacing: .01em;
+  font-weight: 600;
+  font-size: clamp(1.45rem, 5vw, 1.9rem);
+  letter-spacing: .02em;
   color: #ffffff;
+  line-height: 1.25;
+}
+
+.event-venue-block .venue-hall {
+  font-family: 'Jost', sans-serif;
+  font-size: clamp(0.85rem, 2.6vw, 0.98rem);
+  color: var(--ink-soft);
+  letter-spacing: .01em;
+  line-height: 1.45;
+  max-width: 420px;
+  margin: 0 auto;
 }
 
 .venue-map {
@@ -2181,8 +2208,9 @@ footer.site-footer {
 }
 
 @media(max-width:480px) {
-  .section { padding: 90px 20px; }
-  .corner-floral { width: 100px; }
+  .section { padding: 90px 16px; }
+  .event-card { padding: 40px 18px; }
+  .corner-floral { width: 90px; }
   .enter-btn { padding: 14px 28px; font-size: .75rem; letter-spacing: .2em; }
   .gate-names { font-size: 2.3rem; }
   #lightbox .lb-prev { left: 8px; }

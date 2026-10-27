@@ -276,7 +276,7 @@
   },
   {
     "id": 8,
-    "src": "photos/_zac7472.jpg",
+    "src": "photos/_zac7473.jpg",
     "w": 1200,
     "h": 1803,
     "orient": "portrait",
@@ -284,7 +284,7 @@
   },
   {
     "id": 9,
-    "src": "photos/_zac7473.jpg",
+    "src": "photos/_zac7474.jpg",
     "w": 1200,
     "h": 1803,
     "orient": "portrait",
@@ -292,23 +292,23 @@
   },
   {
     "id": 10,
-    "src": "photos/_zac7474.jpg",
+    "src": "photos/_zac7475.jpg",
     "w": 1200,
-    "h": 1803,
+    "h": 1802,
     "orient": "portrait",
     "caption": "Alayna Ann Sony \u2014 Holy Communion (10)"
   },
   {
     "id": 11,
-    "src": "photos/_zac7475.jpg",
+    "src": "photos/_zac7477.jpg",
     "w": 1200,
-    "h": 1802,
+    "h": 1803,
     "orient": "portrait",
     "caption": "Alayna Ann Sony \u2014 Holy Communion (11)"
   },
   {
     "id": 12,
-    "src": "photos/_zac7477.jpg",
+    "src": "photos/_zac7478.jpg",
     "w": 1200,
     "h": 1803,
     "orient": "portrait",
@@ -316,7 +316,7 @@
   },
   {
     "id": 13,
-    "src": "photos/_zac7478.jpg",
+    "src": "photos/_zac7479.jpg",
     "w": 1200,
     "h": 1803,
     "orient": "portrait",
@@ -324,7 +324,7 @@
   },
   {
     "id": 14,
-    "src": "photos/_zac7479.jpg",
+    "src": "photos/_zac7480.jpg",
     "w": 1200,
     "h": 1803,
     "orient": "portrait",
@@ -332,19 +332,11 @@
   },
   {
     "id": 15,
-    "src": "photos/_zac7480.jpg",
-    "w": 1200,
-    "h": 1803,
-    "orient": "portrait",
-    "caption": "Alayna Ann Sony \u2014 Holy Communion (15)"
-  },
-  {
-    "id": 16,
     "src": "photos/_zac7481.jpg",
     "w": 1200,
     "h": 1805,
     "orient": "portrait",
-    "caption": "Alayna Ann Sony \u2014 Holy Communion (16)"
+    "caption": "Alayna Ann Sony \u2014 Holy Communion (15)"
   }
 ];
 
