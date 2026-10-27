@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Alayna Holy Communion//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:alayna-communion-20261105@retajsalwa
+DTSTAMP:20261026T140000Z
+DTSTART:20261105T153000Z
+DTEND:20261105T193000Z
+SUMMARY:Alayna Ann Sony — Holy Communion Reception
+DESCRIPTION:We warmly invite you to the First Holy Communion Reception of our beloved daughter Alayna Ann Sony.\n\nParents: Sony Sebastian & Juby Sony\nBest wishes from: Austin Sebastian
+LOCATION:Retaj Salwa Resort, Al Diwan Hall, Salwa Road, Doha, Qatar
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

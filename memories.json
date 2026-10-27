@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "src": "memories/mem_01.jpg",
+    "w": 576,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (1)"
+  },
+  {
+    "id": 2,
+    "src": "memories/mem_02.jpg",
+    "w": 1024,
+    "h": 768,
+    "orient": "landscape",
+    "caption": "Alayna \u2014 Cherished Memories (2)"
+  },
+  {
+    "id": 3,
+    "src": "memories/mem_03.jpg",
+    "w": 1024,
+    "h": 768,
+    "orient": "landscape",
+    "caption": "Alayna \u2014 Cherished Memories (3)"
+  },
+  {
+    "id": 4,
+    "src": "memories/mem_04.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (4)"
+  },
+  {
+    "id": 5,
+    "src": "memories/mem_05.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (5)"
+  },
+  {
+    "id": 6,
+    "src": "memories/mem_06.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (6)"
+  },
+  {
+    "id": 7,
+    "src": "memories/mem_07.jpg",
+    "w": 764,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (7)"
+  },
+  {
+    "id": 8,
+    "src": "memories/mem_08.jpg",
+    "w": 560,
+    "h": 960,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (8)"
+  },
+  {
+    "id": 9,
+    "src": "memories/mem_09.jpg",
+    "w": 720,
+    "h": 960,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (9)"
+  },
+  {
+    "id": 10,
+    "src": "memories/mem_10.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (10)"
+  },
+  {
+    "id": 11,
+    "src": "memories/mem_11.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (11)"
+  },
+  {
+    "id": 12,
+    "src": "memories/mem_12.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (12)"
+  },
+  {
+    "id": 13,
+    "src": "memories/mem_13.jpg",
+    "w": 683,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (13)"
+  },
+  {
+    "id": 14,
+    "src": "memories/mem_14.jpg",
+    "w": 681,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (14)"
+  },
+  {
+    "id": 15,
+    "src": "memories/mem_15.jpg",
+    "w": 1024,
+    "h": 942,
+    "orient": "landscape",
+    "caption": "Alayna \u2014 Cherished Memories (15)"
+  },
+  {
+    "id": 16,
+    "src": "memories/mem_16.jpg",
+    "w": 687,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (16)"
+  },
+  {
+    "id": 17,
+    "src": "memories/mem_17.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (17)"
+  },
+  {
+    "id": 18,
+    "src": "memories/mem_18.jpg",
+    "w": 692,
+    "h": 960,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (18)"
+  },
+  {
+    "id": 19,
+    "src": "memories/mem_19.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (19)"
+  },
+  {
+    "id": 20,
+    "src": "memories/mem_20.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (20)"
+  },
+  {
+    "id": 21,
+    "src": "memories/mem_21.jpg",
+    "w": 1024,
+    "h": 1020,
+    "orient": "landscape",
+    "caption": "Alayna \u2014 Cherished Memories (21)"
+  },
+  {
+    "id": 22,
+    "src": "memories/mem_22.jpg",
+    "w": 1024,
+    "h": 759,
+    "orient": "landscape",
+    "caption": "Alayna \u2014 Cherished Memories (22)"
+  },
+  {
+    "id": 23,
+    "src": "memories/mem_23.jpg",
+    "w": 1024,
+    "h": 768,
+    "orient": "landscape",
+    "caption": "Alayna \u2014 Cherished Memories (23)"
+  },
+  {
+    "id": 24,
+    "src": "memories/mem_24.jpg",
+    "w": 819,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (24)"
+  },
+  {
+    "id": 25,
+    "src": "memories/mem_25.jpg",
+    "w": 411,
+    "h": 733,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (25)"
+  },
+  {
+    "id": 26,
+    "src": "memories/mem_26.jpg",
+    "w": 770,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (26)"
+  },
+  {
+    "id": 27,
+    "src": "memories/mem_27.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (27)"
+  },
+  {
+    "id": 28,
+    "src": "memories/mem_28.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (28)"
+  },
+  {
+    "id": 29,
+    "src": "memories/mem_29.jpg",
+    "w": 768,
+    "h": 1024,
+    "orient": "portrait",
+    "caption": "Alayna \u2014 Cherished Memories (29)"
+  }
+]
