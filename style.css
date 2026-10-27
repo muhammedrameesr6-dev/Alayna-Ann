@@ -220,6 +220,17 @@ img {
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.8), 0 0 20px rgba(223, 186, 115, 0.25);
 }
 
+.gate-baptismal {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 4.8vw, 2.1rem);
+  color: var(--gold-light);
+  letter-spacing: .04em;
+  margin: -2px 0 14px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.8), 0 0 16px rgba(223, 186, 115, 0.3);
+}
+
 .gate-sub {
   font-size: .84rem;
   font-weight: 500;
@@ -452,6 +463,22 @@ img {
   opacity: 0;
   animation: fadeUp 1.3s var(--ease) forwards;
   animation-delay: .8s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-baptismal {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.75rem, 5.6vw, 3rem);
+  color: var(--gold-light);
+  letter-spacing: .04em;
+  margin-top: 6px;
+  line-height: 1.15;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .8), 0 0 20px rgba(223, 186, 115, 0.45);
 }
 
 .hero-date {
