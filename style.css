@@ -456,8 +456,8 @@ img {
 
 .hero-date {
   margin-top: 28px;
-  font-size: .92rem;
-  letter-spacing: .34em;
+  font-size: clamp(0.82rem, 2.6vw, 0.95rem);
+  letter-spacing: .28em;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--gold-light);
@@ -465,6 +465,22 @@ img {
   opacity: 0;
   animation: fadeUp 1.2s var(--ease) forwards;
   animation-delay: 1.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  line-height: 1.5;
+}
+
+.hero-date-line {
+  display: block;
+}
+
+.hero-venue-line {
+  display: block;
+  letter-spacing: .22em;
+  color: #f5eedc;
+  opacity: 0.95;
 }
 
 .scroll-cue {
