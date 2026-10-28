@@ -524,31 +524,29 @@ img {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 32px;
-  padding: 10px 24px 10px 26px;
+  margin-top: 60px;
+  padding: 12px 28px 12px 30px;
   border-radius: 999px;
-  background: rgba(20, 34, 19, 0.72);
-  border: 1.5px solid var(--gold);
-  color: var(--gold-light);
+  background: var(--gold-grad);
+  border: 1.5px solid #fff5db;
+  color: #0e190f;
   cursor: pointer;
   text-decoration: none;
   font-family: 'Jost', sans-serif;
-  font-size: 0.82rem;
-  font-weight: 500;
+  font-size: 0.84rem;
+  font-weight: 600;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 16px rgba(223, 186, 115, 0.28);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55), 0 0 22px rgba(223, 186, 115, 0.5);
   transition: all .35s var(--ease);
   animation: heroScrollBounce 2.2s ease-in-out infinite;
 }
 
 .hero-scroll-btn:hover {
-  background: var(--gold-grad);
-  color: var(--olive-night);
-  border-color: var(--gold-light);
-  box-shadow: 0 6px 26px rgba(223, 186, 115, 0.6);
+  background: linear-gradient(135deg, #ffffff 0%, #f7e1a6 50%, #c9983e 100%);
+  color: #0e190f;
+  border-color: #ffffff;
+  box-shadow: 0 10px 32px rgba(223, 186, 115, 0.7);
   transform: translateY(2px);
 }
 
@@ -564,7 +562,7 @@ img {
   width: 16px;
   height: 16px;
   display: block;
-  stroke: currentColor;
+  stroke: #0e190f;
   transition: transform .3s var(--ease);
 }
 
