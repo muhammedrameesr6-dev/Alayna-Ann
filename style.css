@@ -330,10 +330,14 @@ img {
   min-height: 100dvh;
   min-height: 100svh;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
   isolation: isolate;
   background: #142315;
+  padding: 40px 20px 110px;
+  box-sizing: border-box;
 }
 
 .parallax-layer {
@@ -405,9 +409,12 @@ img {
   position: relative;
   z-index: 2;
   width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
   text-align: center;
-  padding: 0 24px clamp(140px, 18vh, 180px);
+  padding: 0 16px;
   color: #fff;
+  transform: translateY(-16px);
 }
 
 .hero-verse {
@@ -416,11 +423,11 @@ img {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-weight: 500;
-  font-size: clamp(1.05rem, 3.5vw, 1.4rem);
-  line-height: 1.65;
+  font-size: clamp(1.05rem, 3.4vw, 1.35rem);
+  line-height: 1.6;
   color: #ffffff;
   text-shadow: 0 3px 20px rgba(0, 0, 0, .8), 0 1px 4px rgba(0, 0, 0, .6);
-  max-width: 600px;
+  max-width: 580px;
   margin-left: auto;
   margin-right: auto;
   opacity: 0;
@@ -429,11 +436,11 @@ img {
 }
 
 .hero-verse-ref {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   font-family: 'Jost', sans-serif;
   font-weight: 600;
-  font-size: .84rem;
-  letter-spacing: .32em;
+  font-size: .82rem;
+  letter-spacing: .3em;
   text-transform: uppercase;
   color: var(--gold);
   text-shadow: 0 2px 14px rgba(0, 0, 0, .8);
@@ -443,8 +450,8 @@ img {
 }
 
 .hero-eyebrow {
-  font-size: .76rem;
-  letter-spacing: .32em;
+  font-size: .74rem;
+  letter-spacing: .3em;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--ink-soft);
@@ -458,7 +465,7 @@ img {
 .hero-name {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 500;
-  font-size: clamp(2.8rem, 10vw, 5.2rem);
+  font-size: clamp(2.6rem, 9.2vw, 4.8rem);
   line-height: 1.05;
   color: #ffffff;
   text-shadow: 0 4px 28px rgba(0, 0, 0, .8), 0 0 25px rgba(223, 186, 115, 0.35);
@@ -475,7 +482,7 @@ img {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(1.75rem, 5.6vw, 3rem);
+  font-size: clamp(1.65rem, 5.2vw, 2.75rem);
   color: var(--gold-light);
   letter-spacing: .04em;
   margin-top: 4px;
@@ -484,9 +491,9 @@ img {
 }
 
 .hero-date {
-  margin-top: 20px;
-  font-size: clamp(0.82rem, 2.6vw, 0.95rem);
-  letter-spacing: .28em;
+  margin-top: 18px;
+  font-size: clamp(0.8rem, 2.5vw, 0.92rem);
+  letter-spacing: .26em;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--gold-light);
@@ -514,27 +521,27 @@ img {
 
 .scroll-cue {
   position: absolute;
-  bottom: clamp(44px, 6.5vh, 60px);
-  bottom: max(46px, calc(env(safe-area-inset-bottom, 0px) + 26px));
+  bottom: clamp(54px, 8.5vh, 78px);
+  bottom: max(56px, calc(env(safe-area-inset-bottom, 0px) + 36px));
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
-  background: rgba(20, 34, 19, 0.65);
+  background: rgba(20, 34, 19, 0.72);
   border: 1.5px solid var(--gold);
   color: var(--gold-light);
   cursor: pointer;
   text-decoration: none;
-  opacity: 0;
-  animation: scrollFadeIn 1.4s var(--ease) forwards 1.2s, scrollBounce 2.2s ease-in-out infinite 2.6s;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5), 0 0 14px rgba(223, 186, 115, 0.25);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  opacity: 1;
+  animation: scrollBounce 2s ease-in-out infinite;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.55), 0 0 16px rgba(223, 186, 115, 0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   transition: all .35s var(--ease);
 }
 
@@ -556,17 +563,12 @@ img {
   transform: translateY(2px);
 }
 
-@keyframes scrollFadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
 @keyframes scrollBounce {
   0%, 100% {
     transform: translateX(-50%) translateY(0);
   }
   50% {
-    transform: translateX(-50%) translateY(7px);
+    transform: translateX(-50%) translateY(8px);
   }
 }
 
