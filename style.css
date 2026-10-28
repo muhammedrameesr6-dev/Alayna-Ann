@@ -512,30 +512,59 @@ img {
 
 .scroll-cue {
   position: absolute;
-  bottom: 24px;
+  bottom: 22px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2;
+  z-index: 10;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(20, 34, 19, 0.6);
+  border: 1.5px solid var(--gold);
+  color: var(--gold-light);
+  cursor: pointer;
+  text-decoration: none;
   opacity: 0;
-  animation: fadeIn 1.4s var(--ease) forwards;
-  animation-delay: 1.4s;
+  animation: scrollFadeIn 1.4s var(--ease) forwards 1.2s, scrollBounce 2.2s ease-in-out infinite 2.6s;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5), 0 0 14px rgba(223, 186, 115, 0.25);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all .35s var(--ease);
 }
 
-.scroll-cue .line {
-  width: 1px;
-  height: 34px;
-  background: linear-gradient(180deg, var(--gold), transparent);
-  animation: extend 2.6s ease-in-out infinite;
-  transform-origin: top;
+.scroll-cue:hover {
+  background: var(--gold-grad);
+  color: var(--olive-night);
+  border-color: var(--gold-light);
+  box-shadow: 0 6px 24px rgba(223, 186, 115, 0.55);
 }
 
-@keyframes extend {
-  0%, 100% { transform: scaleY(.55); opacity: .5; }
-  50%      { transform: scaleY(1); opacity: 1; }
+.scroll-cue svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+  transition: transform .3s var(--ease);
+}
+
+.scroll-cue:hover svg {
+  transform: translateY(2px);
+}
+
+@keyframes scrollFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes scrollBounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(7px);
+  }
 }
 
 @keyframes fadeIn { to { opacity: 1; } }
