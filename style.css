@@ -336,7 +336,7 @@ img {
   overflow: hidden;
   isolation: isolate;
   background: #142315;
-  padding: 40px 20px 110px;
+  padding: 40px 20px 60px;
   box-sizing: border-box;
 }
 
@@ -519,56 +519,65 @@ img {
   opacity: 0.95;
 }
 
-.scroll-cue {
-  position: absolute;
-  bottom: clamp(54px, 8.5vh, 78px);
-  bottom: max(56px, calc(env(safe-area-inset-bottom, 0px) + 36px));
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10;
-  display: flex;
+.hero-scroll-btn {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
+  gap: 10px;
+  margin-top: 32px;
+  padding: 10px 24px 10px 26px;
+  border-radius: 999px;
   background: rgba(20, 34, 19, 0.72);
   border: 1.5px solid var(--gold);
   color: var(--gold-light);
   cursor: pointer;
   text-decoration: none;
-  opacity: 1;
-  animation: scrollBounce 2s ease-in-out infinite;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.55), 0 0 16px rgba(223, 186, 115, 0.35);
+  font-family: 'Jost', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 16px rgba(223, 186, 115, 0.28);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   transition: all .35s var(--ease);
+  animation: heroScrollBounce 2.2s ease-in-out infinite;
 }
 
-.scroll-cue:hover {
+.hero-scroll-btn:hover {
   background: var(--gold-grad);
   color: var(--olive-night);
   border-color: var(--gold-light);
-  box-shadow: 0 6px 24px rgba(223, 186, 115, 0.55);
-}
-
-.scroll-cue svg {
-  width: 22px;
-  height: 22px;
-  display: block;
-  transition: transform .3s var(--ease);
-}
-
-.scroll-cue:hover svg {
+  box-shadow: 0 6px 26px rgba(223, 186, 115, 0.6);
   transform: translateY(2px);
 }
 
-@keyframes scrollBounce {
+.hero-scroll-btn .scroll-btn-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+}
+
+.hero-scroll-btn svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+  stroke: currentColor;
+  transition: transform .3s var(--ease);
+}
+
+.hero-scroll-btn:hover svg {
+  transform: translateY(2px);
+}
+
+@keyframes heroScrollBounce {
   0%, 100% {
-    transform: translateX(-50%) translateY(0);
+    transform: translateY(0);
   }
   50% {
-    transform: translateX(-50%) translateY(8px);
+    transform: translateY(6px);
   }
 }
 
